@@ -13,7 +13,7 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.example.personalassistant.databinding.ActivityMainBinding
+import com.example.personalassistant.databinding.ActivityMainBinding // ДОБАВЬТЕ ЭТУ СТРОЧКУ
 import java.util.Locale
 
 class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
