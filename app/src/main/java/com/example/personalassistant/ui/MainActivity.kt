@@ -151,6 +151,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS -> speak("Недостаточно разрешений")
             else -> speak("Ошибка распознавания речи")
         }
+        speak(errorMessage)
+        Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT).show()
     }
 
     private fun processVoiceCommand(command: String) {
