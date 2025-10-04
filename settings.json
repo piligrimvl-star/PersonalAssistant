@@ -1,0 +1,19 @@
+{
+    "gradle.nativeAutomation": true,
+    "gradle.autoDetect": "on",
+    "gradle.jvmArguments": "-Xmx2g",
+    "gradle.reuseTerminals": "all"
+}
+{
+    "kotlin.compiler.path": "C:\\Program Files\\Kotling",
+    "kotlin.language.server.enabled": true,
+    "kotlin.snippets.enabled": true,
+    "[kotlin]": {
+        "editor.defaultFormatter": "fwcd.kotlin"
+    }
+}
+{
+    "android.sdkPath": "C:\\Users\\pilig_s3awhah\\AppData\\Local\\Android\\Sdk",
+    "android.emulatorPath": "C:\\Users\\pilig_s3awhah\\AppData\\Local\\Android\\Sdk\\emulator\\emulator.exe",
+    "android.adbPath": "C:\\Users\\pilig_s3awhah\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe"
+}
