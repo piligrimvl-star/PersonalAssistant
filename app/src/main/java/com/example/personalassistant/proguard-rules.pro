@@ -33,3 +33,7 @@
 -keep class * extends android.app.Application
 -keep class * extends android.app.Service
 -keep class * extends android.content.BroadcastReceiver
+
+# Basic ProGuard rules for release build
+-keep class com.example.personalassistant.** { *; }
+-dontwarn androidx.room.**
